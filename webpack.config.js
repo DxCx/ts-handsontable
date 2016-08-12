@@ -155,7 +155,7 @@ var webpack_opts = {
 		preLoaders: [{ test: /\.ts$/, loader: 'tslint' }],
 		loaders: [{ test: /\.ts$/, loader: 'babel-loader!ts-loader' }]
 	},
-	externals: nodeModules,
+	// externals: nodeModules,
 	plugins: [
 		// TODO: Minifiy JS.
 		//		new webpack.optimize.UglifyJsPlugin(),
